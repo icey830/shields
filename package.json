@@ -12,14 +12,14 @@
   ],
   "homepage": "http://shields.io",
   "bugs": {
-    "url": "https://github.com/badges/shields/issues",
-    "email": "thaddee.tyl@gmail.com"
+    "url": "https://github.com/icey830/shields/issues",
+    "email": "icey830@gmail.com"
   },
   "license": "CC0-1.0",
-  "author": "Thaddée Tyl <thaddee.tyl@gmail.com>",
+  "author": "Thaddée Tyl <icey830@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/badges/shields"
+    "url": "https://github.com/icey830/shields"
   },
   "dependencies": {
     "@hapi/joi": "^15.1.0",
