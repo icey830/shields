@@ -1,14 +1,14 @@
-#指定运行环境
-language: node_js
-#指定nodejs版本，可以指定多个
-node_js:
-  - 8
+services:
+  - docker
+  
+before_install:
+- docker build -t shields .
+- docker run --rm -p 8080:80 --name shields shields
 
-#运行的脚本命令
+
 script:
-  - npm ci
-  - npm run build
-  - npm start
+  - gh-badges@1.1.2 start /usr/src/app
+  - node server.js
 
 #指定分支，只有指定的分支提交时才会运行脚本
 branches:
