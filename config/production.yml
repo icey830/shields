@@ -1,9 +1,8 @@
 public:
-  bind:
-    address: '0.0.0.0'
-    
-  ssl:
-    isSecure: true
+ metrics:
+   prometheus:
+      enabled: true
+      
 
  cors:
     allowedOrigin: ['http://git.elvns.com/shields', 'http://git.elvns.com/shields']
