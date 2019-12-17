@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: node server.js
+      - run: npm run build
+      - run: npm start
+        
 
 
