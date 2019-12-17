@@ -5,3 +5,7 @@ public:
   ssl:
     isSecure: true
 
+ cors:
+    allowedOrigin: ['http://git.elvns.com/shields', 'http://git.elvns.com/shields']
+
+  redirectUrl: 'http://git.elvns.com/shields/'
