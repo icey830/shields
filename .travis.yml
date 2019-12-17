@@ -4,6 +4,7 @@ services:
 before_install:
 - docker build -t shields .
 - docker run --rm -p 8080:80 --name shields shields
+- docker run --rm -p 8080:80 --env-file shields.env --name shields shields
 
 
 script:
