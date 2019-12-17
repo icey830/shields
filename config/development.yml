@@ -3,8 +3,11 @@ public:
     address: 'localhost'
 
   cors:
-    allowedOrigin: ['http://localhost:3000']
+    allowedOrigin: ['http://git.elvns.com/shields']
 
   rateLimit: false
 
   handleInternalErrors: false
+
+private:
+ gh_token: '69fe4b01650c7e446552a385b62042bf38ca40dc'
