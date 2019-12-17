@@ -1,3 +1,7 @@
 public:
   bind:
     address: '0.0.0.0'
+    
+  ssl:
+    isSecure: true
+
