@@ -1,7 +1,8 @@
 public:
-  bind:
-    address: 'localhost'
-
+  metrics:
+    prometheus:
+      enabled: true
+      
   cors:
     allowedOrigin: ['http://git.elvns.com/shields']
 
